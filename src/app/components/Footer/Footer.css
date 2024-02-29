@@ -1,0 +1,35 @@
+.quantico {
+    font-family: 'Quantico';
+}
+
+.poppins {
+    font-family: 'Poppins';
+}
+
+@media screen and (min-width: 1530px) {
+
+    /* .responsive-hero-img {
+          width: 70%;
+      }
+    
+      .responsive-padding {
+          padding-left: 12rem;
+          padding-right: 12rem;
+      }
+    
+      .responsive-tick {
+          left: 1%;
+      } */
+    .responsive-footer-container-padding {
+      padding-left: 12rem;
+      padding-right: 12rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .responsive-footer-container-padding {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      /* margin-top: 5rem; */
+    }
+  }

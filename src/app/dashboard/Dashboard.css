@@ -1,0 +1,38 @@
+.quantico {
+    font-family: 'Quantico';
+}
+
+.poppins {
+    font-family: 'Poppins';
+}
+
+@media screen and (min-width: 1530px) {
+    .responsive-container-padding-dashboard {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .responsive-container-padding-dashboard {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.greenBoxDash {
+    border-radius: 15px;
+    border: 1.5px solid #1FED8B;
+    background: linear-gradient(181deg, #20EE8C 6.08%, rgba(32, 238, 140, 0.00) 240.4%);
+}
+
+.trans-img {
+    fill: linear-gradient(107deg, #FFF 45.78%, rgba(255, 255, 255, 0.00) 134.32%);
+
+    mix-blend-mode: overlay;
+}
+
+.active-link-collab{
+    background: linear-gradient(180deg, #1FED8B -12.5%, rgba(31, 237, 139, 0.00) 163.46%);
+    border: 1px solid #1FED8B;
+}

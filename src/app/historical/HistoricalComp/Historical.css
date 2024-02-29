@@ -1,0 +1,11 @@
+.history-mobile-scroller{
+    @media (max-width: 1080px) {
+       height: 65vh;
+       overflow: scroll;
+       margin-top: 0.8rem;
+      }
+}
+.active-link-history{
+    background: linear-gradient(180deg, #1FED8B -12.5%, rgba(31, 237, 139, 0.00) 163.46%);
+    border: 1px solid #1FED8B;
+}

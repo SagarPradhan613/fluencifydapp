@@ -1,0 +1,144 @@
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-center {
+    transform: scale(1.2) !important
+}
+
+.quantico {
+    font-family: 'Quantico';
+}
+
+.poppins {
+    font-family: 'Poppins';
+}
+
+.slider-img-container {
+    height: 112px !important;
+    width: 123px !important;
+}
+
+.gradiant-roi-box {
+    border-radius: 15px;
+    border: 1.5px solid #1FED8B;
+    background: linear-gradient(180deg, #20EE8C 11.8%, rgba(32, 238, 140, 0.00) 278.09%);
+}
+
+@media screen and (max-width: 1080px) {
+    .rank-container {
+        width: 30%;
+    }
+
+    .roi-container {
+        width: 70%;
+    }
+
+    .collab-box {
+        width: 85%;
+    }
+
+    .list-button-container {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width:1080px) and (max-width: 1280px) {
+    .rank-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .roi-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .collab-box {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .date-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .price-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* .pagination > li{
+    background-color: #2D2D2D;
+    color: white;
+    border-radius: 17px;
+    padding: 0.8rem;
+}
+
+.next {
+    background-color: #1FED8B;
+    color: white;
+    border-radius: 17px;
+    padding: 0.8rem;
+}
+
+.next.disabled {
+    background-color: #2D2D2D;
+    color: white;
+}
+.previous {
+    background-color: #1FED8B;
+    color: white;
+    border-radius: 17px;
+    padding: 0.8rem;
+}
+
+.previous.disabled {
+    background-color: #2D2D2D;
+    color: white;
+}
+.pagination > li {
+    background-color: #2D2D2D;
+  } */
+
+.page-item {
+    background-color: #2D2D2D;
+    color: white;
+    border-radius: 17px;
+    padding: 0.8rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.page-item.active {
+    border: 1px solid #1FED8B !important;
+}
+
+
+
+@media screen and (min-width:1080px) {
+    .responsive-img-slider-size {
+    width: 323px !important;
+}
+}
+
+.custom-pagination ul li button {
+   background-color: #2D2D2D !important;
+   color: white !important;
+   border: none;
+   border-radius: 15px;
+   padding: 1rem;
+   margin-left: 3px;
+   margin-right: 3px;
+   transition: all 0.3s ease;
+  }
+  
+  .custom-pagination ul li[aria-current="page"] button {
+   border: 1px solid #1FED8B;
+  }
+  
+.custom-pagination ul li button:hover{
+    background-color: #1FED8B !important;
+}

@@ -1,0 +1,45 @@
+.nav-btn {
+    border-radius: 45px;
+    border: 3px solid #1FED8B;
+  
+    background: linear-gradient(180deg, #00FF86 0%, rgba(15, 15, 15, 0.00) 601.97%);
+  
+    backdrop-filter: blur(50px);
+  }
+  
+  /* Target tablets and iPads */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {}
+  
+  @media screen and (max-width: 400px) {
+    .responsive-bottom{
+      bottom: 0.5rem;
+    }
+  }
+  .quantico {
+    font-family: 'Quantico';
+  }
+  
+  .poppins {
+    font-family: 'Poppins';
+  }
+  
+  @media screen and (min-width: 1530px) {
+    .responsive-padding-nav{
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+  }
+
+  @media screen and (min-width: 1530px) {
+    .responsive-container-padding-dashboard {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .responsive-container-padding-dashboard {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
